@@ -67,6 +67,7 @@ header{
   list-style: none;
 }
 
+
 .menu-inline li{
   display: inline;
   padding: 0 10px;
@@ -100,6 +101,10 @@ header{
 
 .verde{
   background-color: #7CBB04;
+}
+
+.verde-grande{
+  padding: 20px 25px;
 }
 
 .jumbotron{
@@ -173,26 +178,81 @@ header{
  .hr1{
    margin-left: 40%;
    margin-right: 40%;
+   margin-bottom: 30px;
  }
 
  .contenitore-centrale2{
-  width: 70%;
+  width: 80%;
   margin: auto;
  }
 
- .box2{
-  width: 100%;
-  height: 400px;
+
+ .box2 img{
+   /* height: 100%; */
+   width: 100%;
  }
 
  .colonna2{
-   width: 40%;
-  }
-   
-  .colonna2 h1{
-    text-align: center;
+   width: 48%;
   }
 
+  .contenitore-centrale2 .destra{
+    margin-left: 4%;
+  }
+   
+  .titolo2 h1{
+    color: black;
+    margin-bottom: 15px;
+  }
+
+  .titolo2 > p{
+    font-size: 20px;
+    text-align: left;
+    padding: 0;
+    margin-bottom: 15px;
+  }
+
+ 
+  .hr-finale{
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+
+ /* piede */
+
+ .box-finale{
+  width: 100%;
+  height: 200px;
+  background-color: #D3D3D3;
+ }
+
+ .titolo-finale{
+   display: inline-block;
+   line-height: 200px;
+   margin-left: 200px;
+   color: black;
+ }
+
+ .nav-finale{
+   text-align: right;
+   padding: 5px 10px;
+   line-height: 200px;
+   margin-right: 200px;
+ }
+
+ .select{
+   padding-bottom: 1px;
+   border-bottom: 1px solid black;
+ }
+
+ .select > span{
+   margin: 0 5px;
+ }
+
+.fa-sort-down{
+  margin-left: 100px;
+ }
+ 
 
  
 
